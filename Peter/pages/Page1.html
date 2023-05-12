@@ -1,0 +1,230 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<title>Hot Beans Web</title>
+</head>
+
+<style> 
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  /*this is the side menu*/
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #ff1212;
+  display: block;
+  transition: 0.3s;
+   /*this is the side menu text*/
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+</style>
+</head>
+
+<!-- made bodys style here -->
+<body style="background-color:#181818;">
+<div id="mySidenav" class="sidenav">
+	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	<a href="it_webpage.html">Home</a>
+	<a href="Page1.html">News</a>
+	<div class="dropdown">
+		<p class="dropbtn">Staff</p>
+		<div class="dropdown-content">
+			<a href="Page2.html">Our Staff</a>
+			<a href="Page3.html">Staff application</a>
+			<a href="Page4.html">Job Roles</a>
+		</div>
+	</div>
+</div>
+
+<div id="main">
+   <span style="font-size:30px;color:red;cursor:pointer" onclick="openNav()">&#9776; News </span>
+</div>
+ <!-- this is how the menu button looks -->
+
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+  document.body.style.backgroundColor = "rgba(0,0,0,100)";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+  document.body.style.backgroundColor = "#181818";
+} <!-- this is how the page opens after menu is closed -->
+</script>
+<div class="parent">
+  <img class="image1" src="../pictures/china.png" alt="China" width="350" height="1500" />
+  <img class="image2" src="../pictures/Hot%20Beans.jpg" alt="China" width="250" height="250" />
+</div>
+
+<section>
+<div id="Sect">
+<h1 style=color:red>
+
+</h1>
+
+<p id="Promote" >
+<br> 
+
+Follow us on
+<a class="navLink" href="https://www.instagram.com/"> Instagram</a>
+!
+<br><br>
+Please leave a review on
+<a class="navLink" href="https://uk.trustpilot.com/"> Trustpilot </a>
+!
+<br><br>
+Please leave a review on
+<a class="navLink" href="https://www.yelp.co.uk/london"> Yelp</a>
+!
+
+<br><br>
+Follow us on
+<a class="navLink" href="https://twitter.com/?lang=en-gb"> Twitter</a>
+for news and updates!
+
+</p>
+
+<article id=MainArticle> 
+<h3 style=color:red > E-commerse website redesign and optimization project </h3>
+
+<p> Our newsest project  involves redesigning and optimizing an existing e-commerce website for
+ a client<br> in the retail industry. The website is outdated and not user-friendly, resulting in 
+ a poor user experience <br>and low conversion rates. The goal is to revamp the website to attract 
+ more customers, improve sales, <br>and enhance overall performance. </p>
+ 
+<p> On this, we will be focusing on creating an intuitive and user-friendly interface to improve
+ navigation,<br> product search, and checkout processes. Implement responsive design principles
+ for seamless browsing <br>across multiple devices.
+ 
+ We will modernize the website's visual elements, including the overall layout,<br> color scheme, 
+ typography, and imagery. Create a visually appealing design that aligns with the client's <br>
+ brand identity and resonates with their target audience. As well as Develop a robust content
+ management <br>system (CMS) that allows the client to easily add, update, and remove products, 
+ manage inventory, <br>and track sales. Integrate inventory management systems for real-time 
+ product availability updates. </p>
+ 
+<p> We promise to implement a secure and reliable payment gateway solution to facilitate 
+smooth and <br>secure online transactions. Ensure compliance with industry-standard security 
+protocols to protect customer information. As well as conduct thorough testing across different 
+devices, browsers, and user scenarios to ensure website functionality, compatibility, 
+and performance. Fix any bugs or issues identified during the testing phase. </p>
+
+<h3 style=color:red>  Online Learning Platform Development project </h3>
+<p>This project involves developing an online learning platform for a client in the education sector.
+ The client wants to create a comprehensive e-learning platform that offers courses, 
+ resources, and interactive tools to facilitate remote learning and skill development. The 
+ platform should be user-friendly, scalable, and capable of accommodating a large number of 
+ users simultaneously. </p>
+ 
+ <p> We have implemented a secure user registration and authentication system that allows 
+ learners to create accounts, log in, and access personalized course content. 
+ Enableing social login options for convenient account creation. As well as Developing a robust course 
+ management system that enables the client to create and organize courses, upload course materials,
+ and track learner progress. Implement features like course search, enrollment, and progress tracking. </p>
+ 
+ <p> We will  Incorporate multimedia elements such as videos, audio recordings, 
+ interactive quizzes, and downloadable resources to enhance the learning experience.
+ Ensure seamless streaming and compatibility across different devices and internet
+ connections. As well as develop the platform with scalability in mind, considering 
+ potential growth in user base and course offerings. Optimize the code, database, 
+ and server configurations to ensure fast loading times, smooth performance, and 
+ minimal downtime. </p>
+
+</article>
+
+<p id="News1">
+<img src="https://images.pexels.com/photos/15141529/pexels-photo-15141529.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width="420" height="320" alt="Cinque Terre">
+</p>
+
+<div id="Asid">
+<aside id="aside">
+
+</aside>
+
+</div>
+ 
+<article>
+<br>
+<h2 style=color:red>
+
+</h2>
+
+</article>
+
+<footer>
+	<table style="width:100%">
+  <tr>
+    <th id=TabHead> Our Contact</th>
+    <th id=TabHead> Our Links</th> 
+    <th id=TabHead> Relevent News</th>
+	<th id=TabHead> For any issues with the<br> website please contact:</th>
+  </tr>
+  <tr>
+
+    <td>(+44) 07 123 4567</td>
+    <td><a href="https://uk.trustpilot.com/"> Trustpilot </a></td>
+    <td>..</td>
+	<td>Luka M.</td>
+  </tr>
+  <tr>
+
+	<td>HotBeans@gmail.com</td>
+    <td><a href="https://twitter.com/?lang=en-gb"> Twitter </a></td>
+	<td>.</td>
+    <td>(+44) 07 123 4567</td>
+	<td></td>
+  </tr>
+  <tr>
+
+	<td>1 No Name Street, <br>Sandwich CT13 9AJ</td>
+    <td><a class="navLink" href="https://www.instagram.com/"> Instagram</a></td>
+	<td>.</td>
+    <td>LukaMi@gmail.com</td>
+	<td></td>
+  </tr>
+</table>
+
+</footer>
+</section>
+</body>
+</html>

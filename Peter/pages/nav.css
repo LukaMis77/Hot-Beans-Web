@@ -1,0 +1,384 @@
+
+
+section{
+  color: #8d0707;
+}
+
+#picture{
+	float: right;
+  -webkit-box-reflect: below -5px;
+}
+}
+body {
+  font-family: "Lato", sans-serif;
+  transition: background-color .5s;
+}
+
+
+footer{
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #8d0707;
+  color: black;
+  text-align: center;
+  font-family: serif;
+  font-size: 20px;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+ 
+  /*this is the side menu*/
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #ff1212;
+  display: block;
+  transition: 0.3s;
+   /*this is the side menu text*/
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+<!--drop down menu-->
+.dropbtn {
+  color: red;
+  padding: 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.dropdown p {
+	padding: 0;
+	margin: 0;
+}
+
+.dropdown {
+  position: relative;
+  padding: 8px 8px 8px 32px;
+  padding-top: 0;
+  display: inline-block;
+  color: red;
+  font-size: 25px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #181818;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: red;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: black}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #5d0a0a;
+}
+
+
+ .parent {
+		
+        position: relative;
+        top: 0;
+        left: 0;
+      }
+      .image1 {
+        position: absolute;
+        top: 0;
+        left: 1400;
+        border: 1px solid #000000;
+      }
+      .image2 {
+        position: absolute;
+        top: 50px;
+        left: 1450;
+        border: 1px solid #000000;
+      }
+
+section{
+  color: #8d0707;
+}
+#picture{
+float: right;
+}
+body {
+  font-family: "Lato", sans-serif;
+  transition: background-color .5s;
+}
+
+footer{
+  left: 0;
+  bottom: 0;
+  width: 1390px;
+  background-color: #8d0707;
+  color: black;
+  text-align: center;
+  font-family: serif;
+}
+
+table, th, td {
+  border: 1px #8d0707;
+  border-collapse: collapse;
+  padding: 15px;
+  text-align: center;
+  color: #000000;
+  font-size: 20px;
+}
+
+#TabHead{
+	color: #ff9797
+}
+
+#Promote{
+  height:250pt;
+  width: 250px;
+  background-color: #181818;
+  border: 7px;
+  padding: 10px;
+  margin: 5px;
+  color: red;
+  font-size: 20;
+  position: absolute;
+  top: 500px;
+  left: 1450;
+  font-family: cursive;
+  text-align: center;
+  }
+  
+#Meeting{
+	position: absolute;
+	left: 600px;
+}
+
+#HomeAsid {
+  left: 80;
+  bottom: -18;
+  height: 500;
+  width:450;
+  background-color: #8d0707;
+  color: black;
+  font-family: serif;
+  position: relative;
+  font-size: 36;
+  border:7px;
+  padding:10px;
+
+}
+
+#MainArticle{
+  font-size: 20px;
+  border: 7px;
+  padding: 10px;
+  margin: 5px;
+  width: 1370px;
+}
+
+#MainArticle1{
+  font-size: 20px;
+  border: 7px;
+  padding: 10px;
+  margin: 5px;
+  width: 1000px;
+}
+
+
+/*links colours when:*/
+
+/* unvisited link */
+a:link {
+  color: white;
+}
+
+/* visited link */
+a:visited {
+  color: #ff9797;
+}
+
+/* mouse over link */
+a:hover {
+  color: #ff4747;
+}
+
+/* selected link */
+a:active {
+  color: #f50000;
+}
+
+#KeyBox{
+  height:180px;
+  width: 200px;
+  background-color: Red;
+  border: 7px;
+  padding: 10px;
+  margin: 5px;
+  color: Black;
+  font-size: 15;
+  position: absolute;
+  top: 90;
+  left: 1150;
+  text-align: center;
+}
+
+#KeyBox2{
+  height:200px;
+  width: 200px;
+  background-color: Red;
+  border: 7px;
+  padding: 10px;
+  margin: 5px;
+  color: Black;
+  font-size: 15;
+  position: absolute;
+  top: 320;
+  left: 1150;
+  text-align: center;
+}
+#KeyBox3{
+  height:160px;
+  width: 200px;
+  background-color: Red;
+  border: 7px;
+  padding: 10px;
+  margin: 5px;
+  color: Black;
+  font-size: 15;
+  position: absolute;
+  top: 560;
+  left: 1150;
+  text-align: center;
+}
+#KeyBox4{
+  height:170px;
+  width: 200px;
+  background-color: Red;
+  border: 7px;
+  padding: 10px;
+  margin: 5px;
+  color: Black;
+  font-size: 15;
+  position: absolute;
+  top: 760;
+  left: 1150;
+  text-align: center;
+}
+#KeyBox5{
+  height:200px;
+  width: 200px;
+  background-color: Red;
+  border: 7px;
+  padding: 10px;
+  margin: 5px;
+  color: Black;
+  font-size: 15;
+  position: absolute;
+  top: 960;
+  left: 1150;
+  text-align: center;
+}
+#KeyBox6{
+  height:230px;
+  width: 200px;
+  background-color: Red;
+  border: 7px;
+  padding: 10px;
+  margin: 5px;
+  color: Black;
+  font-size: 15;
+  position: absolute;
+  top: 1190;
+  left: 1150;
+  text-align: center;
+}
+#KeyBox7{
+  height:240px;
+  width: 200px;
+  background-color: Red;
+  border: 7px;
+  padding: 10px;
+  margin: 5px;
+  color: Black;
+  font-size: 15;
+  position: absolute;
+  top: 1450;
+  left: 1150;
+  text-align: center;
+}
+#KeyBox8{
+  height:190px;
+  width: 200px;
+  background-color: Red;
+  border: 7px;
+  padding: 10px;
+  margin: 5px;
+  color: Black;
+  font-size: 15;
+  position: absolute;
+  top: 1720;
+  left: 1150;
+  text-align: center;
+}
+
+#News1{
+  left: 960;
+  top: 160;
+  position: absolute;
+  border: 7px;
+  padding: 10px;
+  margin: 5px;
+	
+}
+#News2{
+  left: 10;
+  top: 610;
+  position: absolute;
+  border: 7px;
+  padding: 10px;
+  margin: 5px;
+	
+}

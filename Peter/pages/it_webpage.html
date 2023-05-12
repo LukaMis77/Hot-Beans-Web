@@ -1,0 +1,222 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<title>Hot Beans Web</title>
+<style> 
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  /*this is the side menu*/
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #ff1212;
+  display: block;
+  transition: 0.3s;
+   /*this is the side menu text*/
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+</style>
+</head>
+
+<!-- made bodys style here -->
+<body style="background-color:#181818;">
+<div id="mySidenav" class="sidenav">
+	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	<a href="it_webpage.html">Home</a>
+	<a href="Page1.html">News</a>
+	<div class="dropdown">
+		<p class="dropbtn">Staff</p>
+		<div class="dropdown-content">
+			<a href="Page2.html">Our Staff</a>
+			<a href="Page3.html">Staff application</a>
+			<a href="Page4.html">Job Roles</a>
+		</div>
+	</div>
+</div>
+
+<div id="main">
+   <span style="font-size:30px;color:red;cursor:pointer" onclick="openNav()">&#9776; Home! </span>
+</div>
+ <!-- this is how the menu button looks -->
+
+
+
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+  document.body.style.backgroundColor = "rgba(0,0,0,100)";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+  document.body.style.backgroundColor = "#181818";
+} <!-- this is how the page opens after menu is closed -->
+</script>
+
+<div class="parent">
+	<img class="image1" src="../pictures/china.png" alt="China" width="350" height="1730" />
+	<img class="image2" src="../pictures/Hot%20Beans.jpg" alt="China" width="250" height="250" />
+</div>
+
+<section>
+<div id="Sect">
+<h1 style=color:red>
+Welcome to the main section!
+</h1>
+
+<p id="Promote" >
+<br> 
+
+Follow us on
+<a class="navLink" href="https://www.instagram.com/"> Instagram</a>
+!
+<br><br>
+Please leave a review on
+<a class="navLink" href="https://uk.trustpilot.com/"> Trustpilot </a>
+!
+<br><br>
+Please leave a review on
+<a class="navLink" href="https://www.yelp.co.uk/london"> Yelp</a>
+!
+
+<br><br>
+Follow us on
+<a class="navLink" href="https://twitter.com/?lang=en-gb"> Twitter</a>
+for news and updates!
+
+</p>
+
+<p id="Meeting">
+<img src="../pictures/Staff/pexels-fauxels-3183197.jpg" alt= "Why" width="750" height="500"/>
+</p>
+
+<aside id="HomeAsid" > 
+<p> At Hot Beans Web, we are passionate about crafting exceptional websites that make a lasting impression.
+ We are a dedicated team of talented web developers and designers who are committed to delivering 
+ high-quality, innovative solutions for our clients. </p>
+</p> </aside>
+
+<p id="MainArticle">
+<br> <br>
+We believe that every website should be unique, reflecting the client's vision and goals. That's why 
+we take a collaborative approach, working closely with our clients to understand their needs and 
+translate them into visually stunning and highly functional websites.
+<br><br>
+From the initial concept to the final launch, we pay meticulous attention to detail, ensuring that 
+every element of your website is optimized for performance, user experience, and search 
+engine visibility. Our expertise in the latest web technologies allows us to stay ahead 
+of the curve, delivering cutting-edge solutions that are future-proof and scalable.
+</p>
+
+<p id="MainArticle">
+<b><u>Why Choose Hot Beans Web?</u></b><br><br>
+
+Exceptional Quality: We pride ourselves on delivering websites that exceed expectations. Our 
+commitment to quality ensures that every project we undertake is of the highest standards.<br><br>
+
+<u>Customization:</u><br> We understand that your business is unique, and we tailor our solutions accordingly.
+ Our websites are designed to reflect your brand identity and resonate with your target audience.<br><br>
+
+<u>Transparent Communication:</u><br> We believe in open and transparent communication throughout the project.
+ We keep you informed at every stage, listen to your feedback, and collaborate closely to achieve your goals. <br><br>
+
+<u>Timely Delivery:</u><br> We value your time and strive to deliver projects within agreed timelines. Our streamlined 
+development process and project management ensure efficient execution and on-time delivery. <br><br>
+
+<u>Client Satisfaction:</u><br> Our ultimate goal is your satisfaction. We measure our success by the 
+success of our clients, and we go the extra mile to ensure that you are delighted with the final result. <br><br>
+
+<u>Ready to Get Started?</u><br> <br>
+We are excited to embark on your web development journey with you. Contact us today to 
+discuss your project and let's create a captivating website that drives your business forward.
+ At Hot Beans Web, we turn ideas into reality! <br><br>
+
+</article>
+
+
+
+</div>
+ 
+<article>
+<br>
+<h2 style=color:red>
+
+</h2>
+
+</article>
+
+<footer>
+	<table style="width:100%">
+  <tr>
+    <th id=TabHead> Our Contact</th>
+    <th id=TabHead> Our Links</th> 
+    <th id=TabHead> Relevent News</th>
+	<th id=TabHead> For any issues with the<br> website please contact:</th>
+  </tr>
+  <tr>
+
+    <td>(+44) 07 123 4567</td>
+    <td><a href="https://uk.trustpilot.com/"> Trustpilot </a></td>
+    <td>..</td>
+	<td>Luka M.</td>
+  </tr>
+  <tr>
+
+	<td>HotBeans@gmail.com</td>
+    <td><a href="https://twitter.com/?lang=en-gb"> Twitter </a></td>
+	<td>.</td>
+    <td>(+44) 07 123 4567</td>
+	<td></td>
+  </tr>
+  <tr>
+
+	<td>1 No Name Street, <br>Sandwich CT13 9AJ</td>
+    <td><a class="navLink" href="https://www.instagram.com/"> Instagram</a></td>
+	<td>.</td>
+    <td>LukaMi@gmail.com</td>
+	<td></td>
+  </tr>
+</table>
+
+</footer>
+</section>
+</body>
+</html>
